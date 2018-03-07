@@ -1,0 +1,41 @@
+{
+  "name": "nodejs-blog",
+  "version": "1.0.0",
+  "description": "个人博客系统",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghostcode/nodejs-blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ghostcode/nodejs-blog/issues"
+  },
+  "homepage": "https://github.com/ghostcode/nodejs-blog#readme",
+  "dependencies": {
+    "config-lite": "^2.1.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^2.0.1",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-formidable": "^1.0.0",
+    "express-session": "^1.15.6",
+    "marked": "^0.3.17",
+    "moment": "^2.21.0",
+    "mongolass": "^4.1.3",
+    "objectid-to-timestamp": "^1.3.0",
+    "sha1": "^1.1.1"
+  },
+  "devDependencies": {
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
