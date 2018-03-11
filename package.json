@@ -4,7 +4,8 @@
   "description": "个人博客系统",
   "main": "index.js",
   "scripts": {
-    "test": "istanbul cover node_modules/mocha/bin/_mocha"
+    "test": "istanbul cover node_modules/mocha/bin/_mocha",
+    "start":"NODE_ENV=production pm2 start index.js --name myblog"
   },
   "repository": {
     "type": "git",
