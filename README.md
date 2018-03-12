@@ -11,7 +11,7 @@
     3. Mongodb
     4. Nginx
 
-#部署Nodejs应用
+# 部署Nodejs应用
 
 ## 环境准备：
 
